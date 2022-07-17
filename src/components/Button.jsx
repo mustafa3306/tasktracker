@@ -1,7 +1,19 @@
-import React from 'react'
+import { useState } from 'react'
 
-export const Button = () => {
+export let durumum;
+const Button = () => {
+    
+    durumum = show
+    // console.log("bune",durumum);
+  
   return (
-    <div>Button</div>
+    <div>
+    <button onClick={()=>(setShow(!show))}>Show Add Task Bar</button>
+
+
+    </div>
   )
 }
+
+export default Button
+

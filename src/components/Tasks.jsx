@@ -1,8 +1,21 @@
-import React from 'react'
-import Task from './Task'
+import Task from './Task';
 
-export const Tasks = () => {
+
+const Tasks = () => {
   return (
-    <Task />
+    <div>
+      <form action="">
+        <label htmlFor="">Task</label>
+        <input type="text" name="" id="" placeholder='AddTask'/>
+        <br />
+        <label htmlFor="">Day & Time</label>
+        <input type="text" name="" id="" placeholder='Add Day & Time'/>
+        <br />
+        <button>Save Task</button>
+      </form>
+      <Task />
+    </div>
   )
 }
+
+export default Tasks
